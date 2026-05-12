@@ -1,6 +1,6 @@
 # Rust build
-binpack_to_h5/target/
-binpack_to_h5/Cargo.lock
+target/
+Cargo.lock
 
 # Python
 __pycache__/
