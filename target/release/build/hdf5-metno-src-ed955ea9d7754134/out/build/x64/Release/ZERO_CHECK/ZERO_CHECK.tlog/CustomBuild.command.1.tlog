@@ -1,0 +1,10 @@
+^D:\BINPACK_TO_H5\BINPACK_TO_H5\TARGET\RELEASE\BUILD\HDF5-METNO-SRC-ED955EA9D7754134\OUT\BUILD\CMAKEFILES\1E0CE1ACD0D33EE99D79733B06E461EC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5 -BD:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build/HDF5.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

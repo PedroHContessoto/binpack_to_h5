@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\CMakeFiles\1e0ce1acd0d33ee99d79733b06e461ec\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{178771A9-FAEA-3C89-9F9A-68C368672D19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

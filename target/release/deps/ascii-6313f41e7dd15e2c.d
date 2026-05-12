@@ -1,0 +1,11 @@
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\ascii-6313f41e7dd15e2c.d: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_char.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_str.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_string.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\free_functions.rs
+
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\libascii-6313f41e7dd15e2c.rlib: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_char.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_str.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_string.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\free_functions.rs
+
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\libascii-6313f41e7dd15e2c.rmeta: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_char.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_str.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_string.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\free_functions.rs
+
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\lib.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_char.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_str.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\ascii_string.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ascii-1.1.0\src\free_functions.rs:

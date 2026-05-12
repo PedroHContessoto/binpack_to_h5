@@ -1,0 +1,10 @@
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\hdf5_metno_types-3bf70f1d0ded9b2d.d: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\array.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\dyn_value.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\h5type.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\references.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\string.rs
+
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\libhdf5_metno_types-3bf70f1d0ded9b2d.rmeta: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\array.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\dyn_value.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\h5type.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\references.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\string.rs
+
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\lib.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\array.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\dyn_value.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\h5type.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\references.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-types-0.10.2\src\string.rs:

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5/config/libhdf5.pc.in
+C:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5/src/CMakeLists.txt
+C:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5/src/H5build_settings.cmake.c.in

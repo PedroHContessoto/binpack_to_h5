@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build/cmake_install.cmake",
+		"D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build/src/cmake_install.cmake",
+		"D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build/src/H5FDsubfiling/cmake_install.cmake",
+		"D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build/utils/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

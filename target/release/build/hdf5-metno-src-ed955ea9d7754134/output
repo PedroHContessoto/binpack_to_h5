@@ -1,0 +1,670 @@
+cargo::rerun-if-changed=build.rs
+cargo::rerun-if-env-changed=TEST_LFS_WORKS_RUN
+cargo::rerun-if-env-changed=H5_PRINTF_LL_TEST_RUN
+cargo::rerun-if-env-changed=H5_PRINTF_LL_TEST_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_LDOUBLE_TO_LONG_SPECIAL_RUN
+cargo::rerun-if-env-changed=H5_LDOUBLE_TO_LONG_SPECIAL_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_LONG_TO_LDOUBLE_SPECIAL_RUN
+cargo::rerun-if-env-changed=H5_LONG_TO_LDOUBLE_SPECIAL_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_LDOUBLE_TO_LLONG_ACCURATE_RUN
+cargo::rerun-if-env-changed=H5_LDOUBLE_TO_LLONG_ACCURATE_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_LLONG_TO_LDOUBLE_CORRECT_RUN
+cargo::rerun-if-env-changed=H5_LLONG_TO_LDOUBLE_CORRECT_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_DISABLE_SOME_LDOUBLE_CONV_RUN
+cargo::rerun-if-env-changed=H5_DISABLE_SOME_LDOUBLE_CONV_RUN__TRYRUN_OUTPUT
+cargo::rerun-if-env-changed=H5_NO_ALIGNMENT_RESTRICTIONS_RUN
+cargo::rerun-if-env-changed=H5_NO_ALIGNMENT_RESTRICTIONS_RUN__TRYRUN_OUTPUT
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-msvc = None
+CMAKE_x86_64_pc_windows_msvc = None
+HOST_CMAKE = None
+CMAKE = None
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.19045.
+-- The C compiler identification is MSVC 19.44.35213.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Final: .
+-- Looking for include file sys/file.h
+-- Looking for include file sys/file.h - not found
+-- Looking for include file sys/ioctl.h
+-- Looking for include file sys/ioctl.h - not found
+-- Looking for include file sys/resource.h
+-- Looking for include file sys/resource.h - not found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - not found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include files sys/stat.h, sys/time.h
+-- Looking for include files sys/stat.h, sys/time.h - not found
+-- Looking for include files sys/stat.h, sys/types.h
+-- Looking for include files sys/stat.h, sys/types.h - found
+-- Looking for 3 include files sys/stat.h, ..., features.h
+-- Looking for 3 include files sys/stat.h, ..., features.h - not found
+-- Looking for 3 include files sys/stat.h, ..., dirent.h
+-- Looking for 3 include files sys/stat.h, ..., dirent.h - not found
+-- Looking for 3 include files sys/stat.h, ..., unistd.h
+-- Looking for 3 include files sys/stat.h, ..., unistd.h - not found
+-- Looking for 3 include files sys/stat.h, ..., pwd.h
+-- Looking for 3 include files sys/stat.h, ..., pwd.h - not found
+-- Looking for 3 include files sys/stat.h, ..., pthread.h
+-- Looking for 3 include files sys/stat.h, ..., pthread.h - not found
+-- Looking for 3 include files sys/stat.h, ..., dlfcn.h
+-- Looking for 3 include files sys/stat.h, ..., dlfcn.h - not found
+-- Looking for 3 include files sys/stat.h, ..., netinet/in.h
+-- Looking for 3 include files sys/stat.h, ..., netinet/in.h - not found
+-- Looking for 3 include files sys/stat.h, ..., netdb.h
+-- Looking for 3 include files sys/stat.h, ..., netdb.h - not found
+-- Looking for 3 include files sys/stat.h, ..., arpa/inet.h
+-- Looking for 3 include files sys/stat.h, ..., arpa/inet.h - not found
+-- Looking for 3 include files sys/stat.h, ..., shlwapi.h
+-- Looking for 3 include files sys/stat.h, ..., shlwapi.h - found
+-- Looking for include file quadmath.h
+-- Looking for include file quadmath.h - not found
+-- Looking for gethostname in ucb;
+-- Looking for gethostname in ucb; - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of int_least8_t
+-- Check size of int_least8_t - done
+-- Check size of uint_least8_t
+-- Check size of uint_least8_t - done
+-- Check size of int_fast8_t
+-- Check size of int_fast8_t - done
+-- Check size of uint_fast8_t
+-- Check size of uint_fast8_t - done
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of int_least16_t
+-- Check size of int_least16_t - done
+-- Check size of uint_least16_t
+-- Check size of uint_least16_t - done
+-- Check size of int_fast16_t
+-- Check size of int_fast16_t - done
+-- Check size of uint_fast16_t
+-- Check size of uint_fast16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of int_least32_t
+-- Check size of int_least32_t - done
+-- Check size of uint_least32_t
+-- Check size of uint_least32_t - done
+-- Check size of int_fast32_t
+-- Check size of int_fast32_t - done
+-- Check size of uint_fast32_t
+-- Check size of uint_fast32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of int_least64_t
+-- Check size of int_least64_t - done
+-- Check size of uint_least64_t
+-- Check size of uint_least64_t - done
+-- Check size of int_fast64_t
+-- Check size of int_fast64_t - done
+-- Check size of uint_fast64_t
+-- Check size of uint_fast64_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - failed
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of _Bool
+-- Check size of _Bool - done
+-- Looking for alarm
+-- Looking for alarm - not found
+-- Looking for fcntl
+-- Looking for fcntl - not found
+-- Looking for flock
+-- Looking for flock - not found
+-- Looking for fork
+-- Looking for fork - not found
+-- Looking for getrusage
+-- Looking for getrusage - not found
+-- Looking for pread
+-- Looking for pread - not found
+-- Looking for pwrite
+-- Looking for pwrite - not found
+-- Looking for rand_r
+-- Looking for rand_r - not found
+-- Looking for random
+-- Looking for random - not found
+-- Looking for strcasestr
+-- Looking for strcasestr - not found
+-- Looking for symlink
+-- Looking for symlink - not found
+-- Looking for tmpfile
+-- Looking for tmpfile - found
+-- Looking for asprintf
+-- Looking for asprintf - not found
+-- Looking for vasprintf
+-- Looking for vasprintf - not found
+-- Looking for waitpid
+-- Looking for waitpid - not found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - not found
+-- Check size of CLOCK_MONOTONIC_COARSE
+-- Check size of CLOCK_MONOTONIC_COARSE - failed
+-- Found Perl: C:/Program Files/Git/usr/bin/perl.exe (found version "5.38.2")
+-- ....All Warnings are enabled
+-- Configuring done (157.6s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/build
+MSBuild version 17.14.14+a129329f1 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5/src/CMakeLists.txt
+  H5.c
+  H5build_settings.c
+  H5checksum.c
+  H5dbg.c
+  H5mpi.c
+  H5system.c
+  H5timer.c
+  H5trace.c
+  H5A.c
+  H5Abtree2.c
+  H5Adense.c
+  H5Adeprec.c
+  H5Aint.c
+  H5Atest.c
+  H5AC.c
+  H5ACdbg.c
+  H5ACmpio.c
+  H5ACproxy_entry.c
+  H5B.c
+  H5Bcache.c
+  Gerando C¢digo...
+  Compilando...
+  H5Bdbg.c
+  H5B2.c
+  H5B2cache.c
+  H5B2dbg.c
+  H5B2hdr.c
+  H5B2int.c
+  H5B2internal.c
+  H5B2leaf.c
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5B2internal.c(622,107): warning C4018: '>=': incompatibilidade de signed/unsigned [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5B2internal.c(628,107): warning C4018: '>=': incompatibilidade de signed/unsigned [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5B2internal.c(634,107): warning C4018: '>=': incompatibilidade de signed/unsigned [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5B2internal.c(639,75): warning C4018: '>=': incompatibilidade de signed/unsigned [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+  H5B2stat.c
+  H5B2test.c
+  H5C.c
+  H5Cdbg.c
+  H5Centry.c
+  H5Cepoch.c
+  H5Cimage.c
+  H5Cint.c
+  H5Clog.c
+  H5Clog_json.c
+  H5Clog_trace.c
+  H5Cmpio.c
+  Gerando C¢digo...
+  Compilando...
+  H5Cprefetched.c
+  H5Cquery.c
+  H5Ctag.c
+  H5Ctest.c
+  H5CX.c
+  H5D.c
+  H5Dbtree.c
+  H5Dbtree2.c
+  H5Dchunk.c
+  H5Dcompact.c
+  H5Dcontig.c
+  H5Ddbg.c
+  H5Ddeprec.c
+  H5Dearray.c
+  H5Defl.c
+  H5Dfarray.c
+  H5Dfill.c
+  H5Dint.c
+  H5Dio.c
+  H5Dlayout.c
+  Gerando C¢digo...
+  Compilando...
+  H5Dmpio.c
+  H5Dnone.c
+  H5Doh.c
+  H5Dscatgath.c
+  H5Dselect.c
+  H5Dsingle.c
+  H5Dtest.c
+  H5Dvirtual.c
+  H5E.c
+  H5Edeprec.c
+  H5Eint.c
+  H5EA.c
+  H5EAcache.c
+  H5EAdbg.c
+  H5EAdblkpage.c
+  H5EAdblock.c
+  H5EAhdr.c
+  H5EAiblock.c
+  H5EAint.c
+  H5EAsblock.c
+  Gerando C¢digo...
+  Compilando...
+  H5EAstat.c
+  H5EAtest.c
+  H5ES.c
+  H5ESevent.c
+  H5ESint.c
+  H5ESlist.c
+  H5F.c
+  H5Faccum.c
+  H5Fcwfs.c
+  H5Fdbg.c
+  H5Fdeprec.c
+  H5Fefc.c
+  H5Ffake.c
+  H5Fint.c
+  H5Fio.c
+  H5Fmount.c
+  H5Fmpi.c
+  H5Fquery.c
+  H5Fsfile.c
+  H5Fspace.c
+  Gerando C¢digo...
+  Compilando...
+  H5Fsuper.c
+  H5Fsuper_cache.c
+  H5Ftest.c
+  H5FA.c
+  H5FAcache.c
+  H5FAdbg.c
+  H5FAdblkpage.c
+  H5FAdblock.c
+  H5FAhdr.c
+  H5FAint.c
+  H5FAstat.c
+  H5FAtest.c
+  H5FD.c
+  H5FDcore.c
+  H5FDdirect.c
+  H5FDfamily.c
+  H5FDhdfs.c
+  H5FDint.c
+  H5FDlog.c
+  H5FDmirror.c
+  Gerando C¢digo...
+  Compilando...
+  H5FDmpi.c
+  H5FDmpio.c
+  H5FDmulti.c
+  H5FDonion.c
+  H5FDonion_header.c
+  H5FDonion_history.c
+  H5FDonion_index.c
+  H5FDperform.c
+  H5FDros3.c
+  H5FDs3comms.c
+  H5FDsec2.c
+  H5FDspace.c
+  H5FDsplitter.c
+  H5FDstdio.c
+  H5FDtest.c
+  H5FDwindows.c
+  H5FL.c
+  H5FO.c
+  H5FS.c
+  H5FScache.c
+  Gerando C¢digo...
+  Compilando...
+  H5FSdbg.c
+  H5FSint.c
+  H5FSsection.c
+  H5FSstat.c
+  H5FStest.c
+  H5G.c
+  H5Gbtree2.c
+  H5Gcache.c
+  H5Gcompact.c
+  H5Gdense.c
+  H5Gdeprec.c
+  H5Gent.c
+  H5Gint.c
+  H5Glink.c
+  H5Gloc.c
+  H5Gname.c
+  H5Gnode.c
+  H5Gobj.c
+  H5Goh.c
+  H5Groot.c
+  Gerando C¢digo...
+  Compilando...
+  H5Gstab.c
+  H5Gtest.c
+  H5Gtraverse.c
+  H5HF.c
+  H5HFbtree2.c
+  H5HFcache.c
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5HFcache.c(713,12): warning C4090: '=': diferentes qualificadores 'const' [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5HFcache.c(1277,12): warning C4090: '=': diferentes qualificadores 'const' [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+  H5HFdbg.c
+  H5HFdblock.c
+  H5HFdtable.c
+  H5HFhdr.c
+  H5HFhuge.c
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hdf5-metno-src-0.9.5\ext\hdf5\src\H5HFhuge.c(195,51): warning C4018: '<=': incompatibilidade de signed/unsigned [D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\src\hdf5-static.vcxproj]
+  H5HFiblock.c
+  H5HFiter.c
+  H5HFman.c
+  H5HFsection.c
+  H5HFspace.c
+  H5HFstat.c
+  H5HFtest.c
+  H5HFtiny.c
+  H5HG.c
+  Gerando C¢digo...
+  Compilando...
+  H5HGcache.c
+  H5HGdbg.c
+  H5HGquery.c
+  H5HL.c
+  H5HLcache.c
+  H5HLdbg.c
+  H5HLdblk.c
+  H5HLint.c
+  H5HLprfx.c
+  H5I.c
+  H5Idbg.c
+  H5Iint.c
+  H5Itest.c
+  H5L.c
+  H5Ldeprec.c
+  H5Lexternal.c
+  H5Lint.c
+  H5M.c
+  H5MF.c
+  H5MFaggr.c
+  Gerando C¢digo...
+  Compilando...
+  H5MFdbg.c
+  H5MFsection.c
+  H5MM.c
+  H5O.c
+  H5Oainfo.c
+  H5Oalloc.c
+  H5Oattr.c
+  H5Oattribute.c
+  H5Obogus.c
+  H5Obtreek.c
+  H5Ocache.c
+  H5Ocache_image.c
+  H5Ochunk.c
+  H5Ocont.c
+  H5Ocopy.c
+  H5Ocopy_ref.c
+  H5Odbg.c
+  H5Odeprec.c
+  H5Odrvinfo.c
+  H5Odtype.c
+  Gerando C¢digo...
+  Compilando...
+  H5Oefl.c
+  H5Ofill.c
+  H5Oflush.c
+  H5Ofsinfo.c
+  H5Oginfo.c
+  H5Oint.c
+  H5Olayout.c
+  H5Olinfo.c
+  H5Olink.c
+  H5Omessage.c
+  H5Omtime.c
+  H5Oname.c
+  H5Onull.c
+  H5Opline.c
+  H5Orefcount.c
+  H5Osdspace.c
+  H5Oshared.c
+  H5Oshmesg.c
+  H5Ostab.c
+  H5Otest.c
+  Gerando C¢digo...
+  Compilando...
+  H5Ounknown.c
+  H5P.c
+  H5Pacpl.c
+  H5Pdapl.c
+  H5Pdcpl.c
+  H5Pdeprec.c
+  H5Pdxpl.c
+  H5Pencdec.c
+  H5Pfapl.c
+  H5Pfcpl.c
+  H5Pfmpl.c
+  H5Pgcpl.c
+  H5Pint.c
+  H5Plapl.c
+  H5Plcpl.c
+  H5Pmapl.c
+  H5Pmcpl.c
+  H5Pocpl.c
+  H5Pocpypl.c
+  H5Pstrcpl.c
+  Gerando C¢digo...
+  Compilando...
+  H5Ptest.c
+  H5PB.c
+  H5PL.c
+  H5PLint.c
+  H5PLpath.c
+  H5PLplugin_cache.c
+  H5R.c
+  H5Rdeprec.c
+  H5Rint.c
+  H5UC.c
+  H5RS.c
+  H5S.c
+  H5Sall.c
+  H5Sdbg.c
+  H5Sdeprec.c
+  H5Shyper.c
+  H5Smpio.c
+  H5Snone.c
+  H5Spoint.c
+  H5Sselect.c
+  Gerando C¢digo...
+  Compilando...
+  H5Stest.c
+  H5SL.c
+  H5SM.c
+  H5SMbtree2.c
+  H5SMcache.c
+  H5SMmessage.c
+  H5SMtest.c
+  H5T.c
+  H5Tarray.c
+  H5Tbit.c
+  H5Tcommit.c
+  H5Tcompound.c
+  H5Tconv.c
+  H5Tconv_integer.c
+  H5Tconv_float.c
+  H5Tconv_string.c
+  H5Tconv_bitfield.c
+  H5Tconv_compound.c
+  H5Tconv_reference.c
+  H5Tconv_enum.c
+  Gerando C¢digo...
+  Compilando...
+  H5Tconv_vlen.c
+  H5Tconv_array.c
+  H5Tcset.c
+  H5Tdbg.c
+  H5Tdeprec.c
+  H5Tenum.c
+  H5Tfields.c
+  H5Tfixed.c
+  H5Tfloat.c
+  H5Tinit_float.c
+  H5Tnative.c
+  H5Toffset.c
+  H5Toh.c
+  H5Topaque.c
+  H5Torder.c
+  H5Tpad.c
+  H5Tprecis.c
+  H5Tref.c
+  H5Tstrpad.c
+  H5Tvisit.c
+  Gerando C¢digo...
+  Compilando...
+  H5Tvlen.c
+  H5TS.c
+  H5VL.c
+  H5VLcallback.c
+  H5VLdyn_ops.c
+  H5VLint.c
+  H5VLnative.c
+  H5VLnative_attr.c
+  H5VLnative_blob.c
+  H5VLnative_dataset.c
+  H5VLnative_datatype.c
+  H5VLnative_file.c
+  H5VLnative_group.c
+  H5VLnative_link.c
+  H5VLnative_introspect.c
+  H5VLnative_object.c
+  H5VLnative_token.c
+  H5VLpassthru.c
+  H5VLtest.c
+  H5VM.c
+  Gerando C¢digo...
+  Compilando...
+  H5WB.c
+  H5Z.c
+  H5Zdeflate.c
+  H5Zfletcher32.c
+  H5Znbit.c
+  H5Zscaleoffset.c
+  H5Zshuffle.c
+  H5Zszip.c
+  H5Ztrans.c
+  Gerando C¢digo...
+  hdf5-static.vcxproj -> D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out\build\bin\Release\libhdf5.lib
+  Building Custom Rule C:/Users/joker/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hdf5-metno-src-0.9.5/ext/hdf5/CMakeLists.txt
+  1>
+  -- Install configuration: "Release"
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/hdf5.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5api_adpt.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5encode.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5public.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Apublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5ACpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Cpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Dpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Epubgen.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Epublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5ESdevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5ESpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Fpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDcore.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDdevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDdirect.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDfamily.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDhdfs.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDlog.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDmirror.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDmpi.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDmpio.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDmulti.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDonion.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDros3.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDs3comms.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDsec2.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDsplitter.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDstdio.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDwindows.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDsubfiling.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5FDioc.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Gpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Idevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Ipublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Ldevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Lpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Mpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5MMpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Opublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Ppublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5PLextern.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5PLpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Rpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Spublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Tdevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Tpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5TSdevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5VLconnector.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5VLconnector_passthru.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5VLnative.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5VLpassthru.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5VLpublic.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Zdevelop.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Zpublic.h
+  -- Up-to-date: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5Epubgen.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5version.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5overflow.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/include/H5pubconf.h
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/lib/libhdf5.lib
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/lib/pkgconfig/hdf5.pc
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/cmake/hdf5-targets.cmake
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/cmake/hdf5-targets-release.cmake
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/cmake/hdf5-config.cmake
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/cmake/hdf5-config-version.cmake
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/lib/libhdf5.settings
+  -- Installing: D:/binpack_to_h5/binpack_to_h5/target/release/build/hdf5-metno-src-ed955ea9d7754134/out/./COPYING
+cargo:root=D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out
+cargo::metadata=root=D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out
+cargo::metadata=include=D:\binpack_to_h5\binpack_to_h5\target\release\build\hdf5-metno-src-ed955ea9d7754134\out/include
+cargo::metadata=library=libhdf5

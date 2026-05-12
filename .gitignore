@@ -1,0 +1,24 @@
+# Rust build
+binpack_to_h5/target/
+binpack_to_h5/Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (never commit binpacks or H5)
+binpacks/
+*.binpack
+*.h5
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

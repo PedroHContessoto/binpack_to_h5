@@ -1,0 +1,11 @@
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\bitflags-9b716f7091d513b7.d: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\iter.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\parser.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\traits.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\public.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\internal.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\external.rs
+
+D:\binpack_to_h5\binpack_to_h5\target\release\deps\libbitflags-9b716f7091d513b7.rmeta: C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\lib.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\iter.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\parser.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\traits.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\public.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\internal.rs C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\external.rs
+
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\lib.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\iter.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\parser.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\traits.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\public.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\internal.rs:
+C:\Users\joker\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bitflags-2.11.1\src\external.rs:
